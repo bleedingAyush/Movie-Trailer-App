@@ -15,7 +15,7 @@ import Rating from "./FooterComponent/Rating";
 import LottieView from "lottie-react-native";
 
 const { width, height } = Dimensions.get("window");
-const API_KEY = "7bbb44abb0dd2ccac2ca70530347ab0c";
+const API_KEY = "";
 const API_URL = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&sort_by=popularity.desc`;
 
 const SearchScreen = () => {
