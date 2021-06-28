@@ -23,7 +23,7 @@ const TrailerScreen = ({ route }) => {
 
   let data = route.params.item;
   const YoutubeUrl = data.YoutubeKey;
-  const CastUrl = `https://api.themoviedb.org/3/movie/${data.key}/credits?api_key=7bbb44abb0dd2ccac2ca70530347ab0c&language=en-US`;
+  const CastUrl = `https://api.themoviedb.org/3/movie/${data.key}/credits?api_key={}&language=en-US`;
   const date = data.releaseDate.split("-");
 
   useEffect(() => {
